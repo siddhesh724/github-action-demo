@@ -1,0 +1,8 @@
+name: context
+on: [push,workflow_dispatch]
+jobs:
+  contet-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: conetext
+        run: echo "${{ toJson(github) }}"
