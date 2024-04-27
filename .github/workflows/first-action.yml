@@ -30,5 +30,3 @@ jobs:
         run: npm run build
       - name: Deploy
         run: echo "Deploying ..."
-      - name: preview
-        run: npm run preview
